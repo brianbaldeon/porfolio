@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Brian Baldeón",
+    "role": "Digital Technologies Graduate",
+    "tagline": "Full Stack Developer specialized in building scalable digital solutions with React, Node.js, Python and Artificial Intelligence.",
+    "cta_contact": "Contact me",
+    "cta_projects": "View projects",
+    "available": "Available for new projects"
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "Get to know me better",
+    "p1": "I'm a Web Development Technician (UNER) and a Digital Technologies graduate (UNICABA), with experience in full stack web development, process automation and AI solution integration.",
+    "p2": "I specialize in building modern, scalable and maintainable digital products, combining frontend, backend, databases and AI agents to solve real business problems.",
+    "p3": "Passionate about continuous learning, clean code and architectures that scale.",
+    "stat_projects": "Projects",
+    "stat_years": "Years exp.",
+    "stat_techs": "Technologies"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "My tech stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "databases": "Databases",
+    "cloud": "Cloud & AI",
+    "languages": "Languages"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Featured work",
+    "view_code": "View code",
+    "view_demo": "View demo",
+    "items": {
+      "p1": {
+        "title": "Full Stack App with AI",
+        "description": "Web platform with integrated chat agent, admin panel and REST API."
+      },
+      "p2": {
+        "title": "E-commerce with NestJS",
+        "description": "Online store with payments, JWT authentication and admin dashboard."
+      },
+      "p3": {
+        "title": "React + Firebase Dashboard",
+        "description": "Real-time metrics panel with authentication and Firestore."
+      },
+      "p4": {
+        "title": "n8n Automations",
+        "description": "Automated workflows for scraping, CRM and notifications."
+      }
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "My professional journey",
+    "items": {
+      "e1": {
+        "role": "Full Stack Developer",
+        "company": "Company / Client",
+        "period": "2024 - Present",
+        "description": "Web app development with React, Node.js and SQL/NoSQL databases. AI integrations and process automation."
+      },
+      "e2": {
+        "role": "Web Developer",
+        "company": "Previous role",
+        "period": "2022 - 2024",
+        "description": "Maintenance and feature development in Angular and React. REST APIs with Express and NestJS, cloud deployments."
+      },
+      "e3": {
+        "role": "Internship / Freelance",
+        "company": "First steps",
+        "period": "2021 - 2022",
+        "description": "First professional projects with Python (Flask/Django), MongoDB and Firebase. Landing pages and automations."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's talk",
+    "name": "Name",
+    "name_placeholder": "Your name",
+    "email": "Email",
+    "email_placeholder": "your@email.com",
+    "message": "Message",
+    "message_placeholder": "Tell me about your project...",
+    "send": "Send message",
+    "sending": "Sending...",
+    "success": "Message sent! I'll reply soon.",
+    "error": "Something went wrong. Reach me directly on WhatsApp or email.",
+    "or": "or",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "built": "Built with React + Vite + Tailwind"
+  }
+}

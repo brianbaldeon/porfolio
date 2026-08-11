@@ -1,0 +1,107 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "skills": "Skills",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "menu": "Menú",
+    "close": "Cerrar"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Brian Baldeón",
+    "role": "Licenciado en Tecnologías Digitales",
+    "tagline": "Full Stack Developer especializado en construir soluciones digitales escalables con React, Node.js, Python e Inteligencia Artificial.",
+    "cta_contact": "Contáctame",
+    "cta_projects": "Ver proyectos",
+    "available": "Disponible para nuevos proyectos"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Conóceme un poco más",
+    "p1": "Soy Técnico en Desarrollo Web (UNER) y Licenciado en Tecnologías Digitales (UNICABA), con experiencia en el desarrollo de aplicaciones web full stack, automatización de procesos e integración de soluciones de Inteligencia Artificial.",
+    "p2": "Me especializo en crear productos digitales modernos, escalables y mantenibles, combinando frontend, backend, bases de datos y agentes de IA para resolver problemas reales de negocio.",
+    "p3": "Apasionado por el aprendizaje continuo, el código limpio y las arquitecturas que escalan.",
+    "stat_projects": "Proyectos",
+    "stat_years": "Años exp.",
+    "stat_techs": "Tecnologías"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Mi stack tecnológico",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "databases": "Bases de datos",
+    "cloud": "Cloud & IA",
+    "languages": "Lenguajes"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Trabajos destacados",
+    "view_code": "Ver código",
+    "view_demo": "Ver demo",
+    "items": {
+      "p1": {
+        "title": "App Full Stack con IA",
+        "description": "Plataforma web con chat agent integrado, panel admin y API REST."
+      },
+      "p2": {
+        "title": "E-commerce con NestJS",
+        "description": "Tienda online con pagos, autenticación JWT y dashboard administrativo."
+      },
+      "p3": {
+        "title": "Dashboard React + Firebase",
+        "description": "Panel de métricas en tiempo real con autenticación y Firestore."
+      },
+      "p4": {
+        "title": "Automatizaciones n8n",
+        "description": "Workflows automatizados para scraping, CRM y notificaciones."
+      }
+    }
+  },
+  "experience": {
+    "title": "Experiencia",
+    "subtitle": "Mi recorrido profesional",
+    "items": {
+      "e1": {
+        "role": "Full Stack Developer",
+        "company": "Empresa / Cliente",
+        "period": "2024 - Actualidad",
+        "description": "Desarrollo de aplicaciones web con React, Node.js y bases de datos SQL/NoSQL. Implementación de integraciones con IA y automatización de procesos."
+      },
+      "e2": {
+        "role": "Desarrollador Web",
+        "company": "Proyecto anterior",
+        "period": "2022 - 2024",
+        "description": "Mantenimiento y desarrollo de features en Angular y React. APIs REST con Express y NestJS, despliegues en cloud."
+      },
+      "e3": {
+        "role": "Pasantía / Freelance",
+        "company": "Primeros pasos",
+        "period": "2021 - 2022",
+        "description": "Primeros proyectos profesionales con Python (Flask/Django), MongoDB y Firebase. Landing pages y automatizaciones."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Hablemos",
+    "name": "Nombre",
+    "name_placeholder": "Tu nombre",
+    "email": "Email",
+    "email_placeholder": "tu@email.com",
+    "message": "Mensaje",
+    "message_placeholder": "Cuéntame sobre tu proyecto...",
+    "send": "Enviar mensaje",
+    "sending": "Enviando...",
+    "success": "¡Mensaje enviado! Te responderé pronto.",
+    "error": "Hubo un error. Escríbeme directo por WhatsApp o email.",
+    "or": "o",
+    "whatsapp": "Hablamos por WhatsApp"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "built": "Construido con React + Vite + Tailwind"
+  }
+}

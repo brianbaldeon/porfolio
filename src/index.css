@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #34495e;
+    --bg-secondary: #2c3e50;
+    --bg-card: #ecf0f1;
+    --text-primary: #ecf0f1;
+    --text-secondary: #7f8c8d;
+    --text-on-card: #34495e;
+    --accent: #1abc9c;
+    --premium: #8e44ad;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  ::selection {
+    background: #1abc9c;
+    color: #ecf0f1;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-6 py-20 md:px-12 md:py-28 lg:px-20;
+  }
+
+  .container-custom {
+    @apply mx-auto max-w-7xl;
+  }
+
+  .card-base {
+    @apply rounded-2xl bg-cloud p-6 shadow-soft transition-all duration-300 hover:-translate-y-1 dark:bg-primary dark:text-cloud;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2c3e50;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1abc9c;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #16a085;
+}
