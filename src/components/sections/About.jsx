@@ -16,7 +16,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="scroll-mt-20 bg-cloud py-20 text-primary dark:bg-primary-light dark:text-cloud md:py-28"
+      className="scroll-mt-20 bg-cloud text-primary dark:bg-primary-light dark:text-cloud"
     >
       <div className="container-custom section-padding" ref={ref}>
         <SectionTitle title={t('about.title')} subtitle={t('about.subtitle')} />

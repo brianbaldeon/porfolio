@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen overflow-hidden bg-cloud pt-24 dark:bg-primary md:pt-28 scroll-mt-20"
+      className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-cloud pt-20 pb-12 dark:bg-primary sm:pt-24 md:pt-28 scroll-mt-20"
     >
       <div className="absolute inset-0 -z-10 bg-cloud dark:bg-primary" />
       <div className="absolute inset-0 -z-10 opacity-30">
@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="absolute -bottom-20 right-1/4 h-72 w-72 rounded-full bg-azure/15 blur-3xl dark:bg-cloud/5" />
       </div>
 
-      <div className="container-custom section-padding flex flex-col items-center justify-center gap-6 md:flex-row md:gap-16">
+      <div className="container-custom flex flex-col items-center justify-center gap-6 px-5 sm:px-6 md:flex-row md:gap-16 md:px-12 lg:px-20">
         <div className="relative animate-fade-in">
           <div className="absolute -inset-3 animate-float rounded-full bg-primary/10 blur-2xl dark:bg-white/10" />
           <div className="absolute -inset-1 rounded-full bg-gradient-to-tr from-primary/0 via-primary/30 to-primary/0 dark:from-white/0 dark:via-white/30 dark:to-white/0" />

@@ -37,7 +37,7 @@ const Contact = () => {
   }
 
   return (
-    <section id="contact" className="scroll-mt-20 bg-cloud py-20 text-primary dark:bg-primary-light dark:text-cloud md:py-28">
+    <section id="contact" className="scroll-mt-20 bg-cloud text-primary dark:bg-primary-light dark:text-cloud">
       <div className="container-custom section-padding" ref={ref}>
         <SectionTitle title={t('contact.title')} subtitle={t('contact.subtitle')} />
 
