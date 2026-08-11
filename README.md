@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Brian Baldeón - Portfolio
 
 SPA personal construida con **React + Vite + Tailwind CSS**, lista para desplegar en **Vercel**.
@@ -106,3 +107,6 @@ Editá los siguientes archivos:
 ---
 
 Construido con React + Vite + Tailwind 💙
+=======
+# porfolio
+>>>>>>> 56eebf2ab0f86e84525c67c1989851421ab86ad3
