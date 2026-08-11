@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { HiSun, HiMoon, HiMenu, HiX } from 'react-icons/hi'
 import { useTheme } from '../../context/ThemeContext'
 
-const NavLink = ({ href, children, onClick }) => {
+const NavLink = ({ href, children, onClick }) => {ñ
   const handleClick = (e) => {
     e.preventDefault()
     const target = document.querySelector(href)
