@@ -5,7 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href="https://brianbaldeon.vercel.app/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#34495e" />
+    <meta name="theme-color" content="#ecf0f1" />
     <meta name="description" content="Brian Baldeón - Licenciado en Tecnologías Digitales. Full Stack Developer especializado en React, Node.js, Python y AI Agents." />
     <meta name="keywords" content="Brian Baldeón, Full Stack Developer, React, Node.js, Python, NestJS, Desarrollador Web, Portfolio" />
     <meta name="author" content="Brian Baldeón" />
@@ -32,13 +32,19 @@
     <title>Brian Baldeón | Full Stack Developer</title>
     <script>
       (function () {
+        var isDark = false;
         try {
           var saved = localStorage.getItem('theme');
-          if (saved !== 'light') {
-            document.documentElement.classList.add('dark');
-          }
+          isDark = saved === 'dark';
         } catch (e) {
+          isDark = false;
+        }
+        if (isDark) {
           document.documentElement.classList.add('dark');
+        }
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) {
+          meta.setAttribute('content', isDark ? '#34495e' : '#ecf0f1');
         }
       })();
     </script>

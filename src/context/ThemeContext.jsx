@@ -5,7 +5,7 @@ const ThemeContext = createContext()
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(() => {
     const saved = localStorage.getItem('theme')
-    return saved || 'dark'
+    return saved || 'light'
   })
 
   useEffect(() => {
@@ -16,6 +16,11 @@ export const ThemeProvider = ({ children }) => {
       root.classList.remove('dark')
     }
     localStorage.setItem('theme', theme)
+
+    const meta = document.querySelector('meta[name="theme-color"]')
+    if (meta) {
+      meta.setAttribute('content', theme === 'dark' ? '#34495e' : '#ecf0f1')
+    }
   }, [theme])
 
   const toggleTheme = () => {
